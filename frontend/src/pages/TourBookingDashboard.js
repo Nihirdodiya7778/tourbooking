@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { useNavigate } from 'react-router-dom'; // Import useNavigate from react-router-dom
 import axiosInstance from '../axiosConfig';
+import React, { useState } from 'react';  // Add this import statement at the top
+
 
 const TourBookingDashboard = () => {
   const [bookings, setBookings] = useState([]); // Initialize bookings as an empty array
